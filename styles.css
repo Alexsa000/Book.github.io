@@ -1,0 +1,173 @@
+ body {
+            margin: 0;
+            height: 100vh; /* Задает высоту на всю видимую область */
+            background-color:#abe9f7;
+        }     
+.container {
+            position: relative;
+            width: 1260px;
+            height: 400px;
+        }
+.image {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+.text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white; /* Цвет текста */
+            text-align: center;
+            font-family: Arial, sans-serif; /* Шрифт текста */
+        }
+.container2 {
+            display: flex;
+            justify-content: center; /* Центрирование по горизонтали */
+            align-items: center; /* Центрирование по вертикали, если нужно */
+            gap: 20px; /* Отступы между ссылками */
+			
+        }
+.book{
+         transform: translate(5%, 0%);
+        display: flex; /* Используем Flexbox для выравнивания */
+        align-items: center; /* Выравниваем по центру по вертикали */
+		 justify-content: center;
+        gap: 170px; /* Зазор между картинкой и текстом */
+        margin: 20px;
+        background: linear-gradient(to bottom,#78f3f5, white);
+		width: 1100px;
+        height: 200px;
+		border-radius: 40px; /* Задаем радиус закругления для всех углов */
+		}
+.book2{
+         transform: translate(5%, 0%);
+        display: flex; /* Используем Flexbox для выравнивания */
+        align-items: center; /* Выравниваем по центру по вертикали */
+		 justify-content: center;
+        gap: 310px; /* Зазор между картинкой и текстом */
+        margin: 20px;
+        background: linear-gradient(to bottom,#78f3f5, white);
+		width: 1100px;
+        height: 200px;
+		border-radius: 40px; /* Задаем радиус закругления для всех углов */
+		
+		}
+.book3{
+         transform: translate(5%, 0%);
+        display: flex; /* Используем Flexbox для выравнивания */
+        align-items: center; /* Выравниваем по центру по вертикали */
+		 justify-content: center;
+        gap: 140px; /* Зазор между картинкой и текстом */
+        margin: 20px;
+        background: linear-gradient(to bottom,#78f3f5, white);
+		width: 1100px;
+        height: 200px;
+		border-radius: 40px; /* Задаем радиус закругления для всех углов */
+		
+		}
+.book4{
+         transform: translate(5%, 0%);
+        display: flex; /* Используем Flexbox для выравнивания */
+        align-items: center; /* Выравниваем по центру по вертикали */
+		 justify-content: center;
+        gap: 240px; /* Зазор между картинкой и текстом */
+        margin: 20px;
+        background: linear-gradient(to bottom,#78f3f5, white);
+		width: 1100px;
+        height: 200px;
+		border-radius: 40px; /* Задаем радиус закругления для всех углов */
+		
+		}
+.book1{
+        align-items: center;
+		border-radius: 20px;
+}
+.text1 {
+            color:#0a023b; /* Цвет текста */
+            font-family: Arial, sans-serif; /* Шрифт текста */
+			margin: 0;
+}
+.K{
+        transform: translate(20%, 0%);
+		display: flex; /* Используем Flexbox для выравнивания */
+        align-items: center; /* Выравниваем по центру по вертикали */
+		 justify-content: center;
+        gap: 350px; /* Зазор между картинкой и текстом */
+        margin: 20px;
+        background: linear-gradient(to bottom,#78f3f5, white);
+		width: 900px;
+        height: 200px;
+		border-radius: 60px; /* Задаем радиус закругления для всех углов */
+}
+.K1{
+        transform: translate(20%, 0%);
+		display: flex; /* Используем Flexbox для выравнивания */
+        align-items: center; /* Выравниваем по центру по вертикали */
+		 justify-content: center;
+        gap: 470px; /* Зазор между картинкой и текстом */
+        margin: 20px;
+        background: linear-gradient(to bottom,#78f3f5, white);
+		width: 900px;
+        height: 200px;
+		border-radius: 60px; /* Задаем радиус закругления для всех углов */
+}
+.K2{
+        transform: translate(20%, 0%);
+		display: flex; /* Используем Flexbox для выравнивания */
+        align-items: center; /* Выравниваем по центру по вертикали */
+		 justify-content: center;
+        gap: 280px; /* Зазор между картинкой и текстом */
+        margin: 20px;
+        background: linear-gradient(to bottom,#78f3f5, white);
+		width: 900px;
+        height: 200px;
+		border-radius: 60px; /* Задаем радиус закругления для всех углов */
+}
+.K3{
+        transform: translate(20%, 0%);
+		display: flex; /* Используем Flexbox для выравнивания */
+        align-items: center; /* Выравниваем по центру по вертикали */
+		 justify-content: center;
+        gap: 330px; /* Зазор между картинкой и текстом */
+        margin: 20px;
+        background: linear-gradient(to bottom,#78f3f5, white);
+		width: 900px;
+        height: 200px;
+		border-radius: 60px; /* Задаем радиус закругления для всех углов */
+}
+.K4{
+        transform: translate(20%, 0%);
+		display: flex; /* Используем Flexbox для выравнивания */
+        align-items: center; /* Выравниваем по центру по вертикали */
+		 justify-content: center;
+        gap: 460px; /* Зазор между картинкой и текстом */
+        margin: 20px;
+        background: linear-gradient(to bottom,#78f3f5, white);
+		width: 900px;
+        height: 200px;
+		border-radius: 60px; /* Задаем радиус закругления для всех углов */
+}
+.K5{
+        transform: translate(20%, 0%);
+		display: flex; /* Используем Flexbox для выравнивания */
+        align-items: center; /* Выравниваем по центру по вертикали */
+		 justify-content: center;
+        gap: 260px; /* Зазор между картинкой и текстом */
+        margin: 20px;
+        background: linear-gradient(to bottom,#78f3f5, white);
+		width: 900px;
+        height: 200px;
+		border-radius: 60px; /* Задаем радиус закругления для всех углов */
+}
+.textarea-field{
+        transform: translate(320%, 0%);
+}
+.input-field{
+        transform: translate(320%, 0%);
+}
+.btn-submit{
+        margin: 10px;
+        transform: translate(710%, 0%);
+}

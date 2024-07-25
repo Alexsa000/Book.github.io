@@ -1,0 +1,15 @@
+{  "name": "Книжный мир",  
+"short_name": "Книги",  
+"theme_color": "#93e4ed",  
+"background_color": "#abe9f7",  
+"display": "standalone", 
+"icons": [
+    {
+      "src": "reading-book.png",
+      "sizes": "36x36",
+      "type": "image/png"
+    }
+]
+ "orientation": "portrait",  
+ "scope": "Placeholder", 
+ "start_url": "."}
